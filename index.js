@@ -1,6 +1,6 @@
 const rpc = require("discord-rpc");
 const client = new rpc.Client({ transport: 'ipc' });
-const clientID = ""; 
+const clientID = "CLIEN-ID"; 
 
 rpc.register(clientID);
 client.login({clientId: clientID}).catch(err => console.log(err));
